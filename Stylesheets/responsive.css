@@ -1,0 +1,142 @@
+/*================================================================================================================
+
+	RESPONSIVE
+
+================================================================================================================*/
+
+@media only screen and (min-width : 1100px) {
+	
+	#header .bg,
+	.parallax .back { background-attachment: fixed !important; }
+	
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	
+	#header .nav .nav-inner > ul > li > a,
+	#header .nav .nav-inner > div > ul > li > a { font-size: 14px; }
+	
+	#portfolio .portfolio-sort { float: none; margin: 0 auto; }
+	
+	#header .bg,
+	#content .parallax .back { background-attachment: scroll !important; }
+	
+	.post .one-half { width: 100%; }
+	
+	.jp-audio .jp-type-single .jp-progress-container, 
+	.jp-audio .jp-type-playlist .jp-progress-container { width: 88% }
+	.jp-interface ul.jp-controls { width: 8% }
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+	.roundabout-projects .project { width: 55%; }
+
+}
+
+/* iPhone 2G- 4S (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+	
+	.parallax .filler { padding: 100px 0; }
+	
+	.single-project .flexslider .flex-control-nav { display: none; }
+	.single-project .flexslider .flex-direction-nav { display: block !important; }
+	
+	
+}
+
+/* iPhone 2G- 4S (portrait) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (orientation : portrait) {
+	
+	#social ul li a { width: 18px; height: 18px; font-size: 18px; }
+	
+}
+
+@media only screen and (max-width : 920px) {
+	
+	.projects .project { width: 45%; margin-bottom: 40px; }
+	
+}
+
+@media only screen and (max-width : 880px) {
+	
+	.nav .mobile-nav { display: block; }
+	.nav ul.regular,
+	.nav-inner > div.regular,
+	.nav > div.regular { display: none; }
+	
+	#portfolio .portfolio-titles { width: 100%; }
+	#portfolio .portfolio-titles .portfolio-title,
+	#portfolio .portfolio-titles .portfolio-subtitle { text-align: center; }
+	
+	.portfolio-sort { display: none; }
+	
+	.roundabout-projects .project .project-info { display: none; }
+		
+}
+
+@media only screen and (max-width : 568px) {
+
+	.ret { display: block !important; }
+	.reg { display: none !important; }
+	
+	#menu-fixed .logo { width: 70%; }
+	#menu-fixed .logo a { margin-top: 14px; }
+	#menu-fixed .mobile-nav .trigger { margin-top: 3px; }
+	
+	#project_sort #filter_drop { display: block; }
+	#project_sort .filter { display: none; }
+
+	.one-half, .one-third, .two-thirds, .one-fourth, .three-fourths, .one-fifth, .two-fifths, .three-fifths, .four-fifths, .one-sixth { width: 100%; }
+
+	.jp-interface ul.jp-controls {
+		width: 15%;
+	}
+	
+	.jp-audio .jp-type-single .jp-progress-container,
+	.jp-audio .jp-type-playlist .jp-progress-container {
+		width: 48%;
+		padding-right: 5%;
+	}
+	
+	.jp-volume-bar-container {
+		width: 30%;
+	}
+	
+	.projects .project { width: 95%; }
+
+}
+
+@media only screen and (max-width : 320px) {
+	
+	h1 { font-size: 32px; }
+	h2 { font-size: 20px; }
+	h3 { font-size: 18px; }
+	h4 { font-size: 14px; }
+	h5 { font-size: 12px; }
+	h6 { font-size: 10px; }
+	
+	#menu-fixed { display: block !important; }
+	#menu-fixed .logo a { width: auto !important; }
+	
+	#header { padding-top: 90px !important; }
+	#header .nav,
+	#header .logo { display: none; }
+	#header .profile { margin-bottom: 20px; }
+	
+	.roundabout-projects .project { width: 55% !important; }
+
+}
