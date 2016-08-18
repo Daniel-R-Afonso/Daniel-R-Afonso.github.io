@@ -154,11 +154,11 @@ Text Domain: shorti
 		#header .nav .nav-inner > ul,
 		#header .nav .nav-inner > div > ul { list-style: none; padding: 0; margin: 0; position: relative; left: 50%; clear: left; float: left; }
 		#header .nav .nav-inner > ul > li,
-		#header .nav .nav-inner > div > ul > li { display: block; list-style: none; padding: 0; margin: 0 15px; position: relative; right: 50%; float: left; }
+		#header .nav .nav-inner > div > ul > li { display: block; list-style: none; padding: 0; margin: 10px 15px 10px; position: relative; right: 50%; float: left; }
 		#header .nav .nav-inner ul .current_page_item,
 		#header .nav .nav-inner ul .current-menu-item { opacity: 1 !important; }
 		#header .nav .nav-inner > ul > li > a,
-		#header .nav .nav-inner > div > ul > li > a { color: #fff; font-size: 10px; text-transform: uppercase; letter-spacing: .1em; opacity: .35; }
+		#header .nav .nav-inner > div > ul > li > a { color: #fff; font-size: 15px; text-transform: uppercase; letter-spacing: .1em; opacity: .35; }
 		
 			/* Sub Nav */
 		
